@@ -12,8 +12,9 @@
 // 1. Two Number Addition
 function add(x, y){
         let result = x + y;
+        return result;
 }
-console.log(add(2, 3));
+console.log(add(2, 3)); // Output: 5
 
 //  2. Even or Odd Checker
 function isEven(num) {
@@ -32,7 +33,7 @@ console.log(isEven(7)); // Output: Odd
 function celsiusToFahrenheit(celsius) {
         return (celsius * 9/5) + 32;
 }
-console.log(celsiusToFahrenheit(0)); // Output: 32
+console.log(celsiusToFahrenheit(2)); // Output: 35.6
 
 // 4. Square of a Number
 function squareNumber(num) {
